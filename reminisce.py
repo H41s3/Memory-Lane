@@ -8,12 +8,12 @@ class Relapse:
         self.age_when_we_fell_in_love = age_when_we_fell_in_love
         self.current_age = current_age
         self.favorite_color = favorite_color
-        self.memories = []  # To store cherished memories
-        self.milestones = []  # To store relationship milestones
-        self.special_dates = []  # To store special dates and messages
-        self.mood = "neutral"  # Default mood
-        self.quotes_songs = []  # To store favorite quotes or songs
-        self.letters = []  # To store unsent letters
+        self.memories = []  # to store cherished memories
+        self.milestones = []  # to store relationship milestones
+        self.special_dates = []  # to store special dates and messages
+        self.mood = "neutral"  # default mood
+        self.quotes_songs = []  # to store favorite quotes or songs
+        self.letters = []  # to store unsent letters
 
         # Load data from file
         self.load_data()
